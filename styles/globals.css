@@ -40,3 +40,8 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+.header__theme-menu-button{
+  border: none;
+}
+

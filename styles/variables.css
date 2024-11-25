@@ -2,3 +2,19 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --bg-color: #000028;                              /* цвет фона */
+  --bg-image: url(../images/cover-image-dark.png);    /* картинка фона */
+  --color-title: #DB00FF;                          /* цвет главного заголовка */
+  --shodow-title: #FF0070;                         /* тень главного заголовка */
+  --color-title-section: #FF0070;                  /* цвет текста заголовков*/
+  --color-bg-subtitle: #FF0070;                    /* цвет фона подзаголовков*/
+  --color-subtitle: #000028;                       /* цвет текста подзаголовков*/
+  --color-text: #F1B2CE;                            /* цвет текста в секции */
+  --border-color: #FF0070;                          /* цвет обводки */
+  --border-color-opacity: rgba(255, 0, 112, 0.4);   /* цвет обводки при :hover */
+  --nav-color-text: #FF0070;                        /* цвет текста в навигации */
+  --font-famaly: "IBM Plex Mono", sans-serif;         /* шрифт */
+  --shodow-link: #FF0070;                           /* тень ссылок */
+}
