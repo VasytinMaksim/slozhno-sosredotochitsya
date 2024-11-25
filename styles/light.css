@@ -10,19 +10,19 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-  --bg-color: #FFF1F7;                              /* цвет фона */
-  --bg-image: url(../images/cover-image-light.png);   /* картинка фона */
-  --color-title: #FFC2E6;                           /* цвет главного заголовка */
-  --shodow-title: #FF0070;                          /* тень главного заголовка */
-  --color-title-section: #353430;                   /* цвет текста заголовков*/
-  --color-bg-subtitle: #FF8DCB;                     /* цвет фона подзаголовков*/
-  --color-subtitle: #353430;                        /* цвет текста подзаголовков*/
-  --color-text: #353430;                            /* цвет текста в секции */
-  --border-color: #353430;                          /* цвет обводки */
-  --border-color-opacity: #353430;                  /* цвет обводки при :hover */
-  --nav-color-text: #353430;                        /* цвет текста в навигации */
-  --font-famaly: "IBM Plex Mono", sans-serif;         /* шрифт */
-  --shodow-link: #FF8DCB;                           /* тень ссылок */
+  --bg-color: #FFF1F7;
+  --bg-image: url(../images/cover-image-light.png);
+  --color-title: #FFC2E6;
+  --shodow-title: #FF0070;
+  --color-title-section: #353430;
+  --color-bg-subtitle: #FF8DCB;
+  --color-subtitle: #353430;
+  --color-text: #353430;
+  --border-color: #353430;
+  --border-color-opacity: #353430;
+  --nav-color-text: #353430;
+  --font-famaly: "IBM Plex Mono", sans-serif;
+  --shodow-link: #FF8DCB;
 
   .decoration {
     display: none;
@@ -32,19 +32,19 @@
 @media (prefers-color-scheme: light) {
 
   :root {
-    --bg-color: #FFF1F7;                              /* цвет фона */
-    --bg-image: url(../images/cover-image-light.png);   /* картинка фона */
-    --color-title: #FFC2E6;                           /* цвет главного заголовка */
-    --shodow-title: #FF0070;                          /* тень главного заголовка */
-    --color-title-section: #353430;                   /* цвет текста заголовков*/
-    --color-bg-subtitle: #FF8DCB;                     /* цвет фона подзаголовков*/
-    --color-subtitle: #353430;                        /* цвет текста подзаголовков*/
-    --color-text: #353430;                            /* цвет текста в секции */
-    --border-color: #353430;                          /* цвет обводки */
-    --border-color-opacity: #353430;                  /* цвет обводки при :hover */
-    --nav-color-text: #353430;                        /* цвет текста в навигации */
-    --font-famaly: "IBM Plex Mono", sans-serif;         /* шрифт */
-    --shodow-link: #FF8DCB;                           /* тень ссылок */
+    --bg-color: #FFF1F7;
+    --bg-image: url(../images/cover-image-light.png);
+    --color-title: #FFC2E6;
+    --shodow-title: #FF0070;
+    --color-title-section: #353430;
+    --color-bg-subtitle: #FF8DCB;
+    --color-subtitle: #353430;
+    --color-text: #353430;
+    --border-color: #353430;
+    --border-color-opacity: #353430;
+    --nav-color-text: #353430;
+    --font-famaly: "IBM Plex Mono", sans-serif;
+    --shodow-link: #FF8DCB;
   
     .decoration {
       display: none;
