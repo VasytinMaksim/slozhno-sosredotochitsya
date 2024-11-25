@@ -15,6 +15,6 @@
   --border-color: #FF0070;
   --border-color-opacity: rgba(255, 0, 112, 0.4);
   --nav-color-text: #FF0070;
-  --font-famaly: "IBM Plex Mono", sans-serif;
+  --font-famaly: "IBM Plex Mono", monospace;
   --shodow-link: #FF0070;
 }

@@ -19,7 +19,7 @@
   --color-subtitle: #353430;
   --color-text: #353430;
   --border-color: #353430;
-  --border-color-opacity: #353430;
+  --border-color-opacity: rgba(50, 49, 45, 0.4);
   --nav-color-text: #353430;
   --font-famaly: "IBM Plex Mono", sans-serif;
   --shodow-link: #FF8DCB;
@@ -41,9 +41,9 @@
     --color-subtitle: #353430;
     --color-text: #353430;
     --border-color: #353430;
-    --border-color-opacity: #353430;
+    --border-color-opacity: rgba(50, 49, 45, 0.4);
     --nav-color-text: #353430;
-    --font-famaly: "IBM Plex Mono", sans-serif;
+    --font-famaly: "IBM Plex Mono", monospace;
     --shodow-link: #FF8DCB;
   
     .decoration {

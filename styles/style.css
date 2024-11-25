@@ -89,6 +89,7 @@
   padding-block: 1.5px 5px;
   color: var(--nav-color-text);
   background-color: transparent;
+  cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
@@ -186,7 +187,7 @@ section:not(:last-child) {
 }
 
 .section__text-link {
-  text-shadow: 2.5px 1px 0 var(--shodow-link);
+  text-shadow: 2px 2px 0 var(--shodow-link);
   text-decoration: none;
   margin-block-start: 0;
 }
@@ -233,48 +234,21 @@ section:not(:last-child) {
 @media (width >= 768px ) {
 
   .decorated-zone::after {
-    content: "";
-    position: absolute;
-    border-inline-end: 1px solid var(--border-color);
-    border-block-start: 1px solid var(--border-color);
-    width: 25px;
-    height: 25px;
     top: 20px;
     right: 20px;
   }
     
   .decorated-zone::before {
-    content: "";
-    position: absolute;
-    border-inline-start: 1px solid var(--border-color);
-    border-block-end: 1px solid var(--border-color);
-    width: 25px;
-    height: 25px;
     left: 20px;
     bottom: 20px;
   }
 
   .decoration::before {
-    content: "rec";
-    position: absolute;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    color: #FF0070;
-    text-transform: uppercase;
     top: 20px;
     right: 49px;
-    font-family: var(--font-famaly);
   }
 
   .decoration::after {
-    content: "";
-    position: absolute;
-    min-height: 9px;
-    min-width: 9px;
-    border-radius: 50%;
-    box-shadow: 0 0 4px 2px #FF0070;
-    background-color: #FF0070;
     top: 28px;
     right: 28px;
   }
@@ -309,19 +283,24 @@ section:not(:last-child) {
     margin-block-end: 60px;
   }
 
-  .section:nth-child(odd) {
+  .section__focusing,
+  .section__concentration-list {
     grid-template-columns: 1fr 2fr;
   }
 
-  .section:nth-child(odd) .section__content {
+  .section__concentration-list .section__content {
     margin-inline-start: 15px;
   }
 
+  .section__focusing .section__content-article {
+    margin-inline-start: 15px;
+  }
+  
   .section__title {
     margin-inline-end: 15px;
-  }
+  } 
 
-  .section:nth-child(2) .section__title {
+  .section__concentration .section__title {
     margin-inline-end: 0;
     max-width: min-content;
   }
@@ -390,17 +369,25 @@ section:not(:last-child) {
     justify-self: end;
     max-width: 491px;
   }
-
-  .section:nth-child(odd) .section__content {
+  
+  .section__focusing .section__content-article {
     margin-inline-start: 7px;
   }
 
-  .section:nth-child(2) .section__title {
+  .section__concentration-list .section__content-article {
+    margin-inline-start: -7px;
+  }
+
+  .section__concentration-list .section__subtitle {
+    margin-inline-start: -7px;
+  }
+ 
+  .section__concentration .section__title {
     max-width: 315px;
     line-height: 24px;
   }
 
-  .section:nth-child(2) .section__content {
+  .section__concentration .section__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
