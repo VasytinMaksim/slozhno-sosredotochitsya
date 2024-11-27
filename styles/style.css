@@ -279,7 +279,7 @@
     padding-inline: 20px;
   }
 
-  section:not(:last-child) {
+  .section:not(:last-child) {
     margin-block-end: 80px;
   }
 
@@ -392,5 +392,4 @@
     max-height: 428px;
     margin-block-start: 5px;
   }
-
 }
