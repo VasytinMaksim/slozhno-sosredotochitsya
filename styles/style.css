@@ -150,11 +150,18 @@
   font-weight: 700;
   line-height: 23.4px;
   color: var(--color-title-section);
-  margin-block-end: 20px;
 }
 
-.section__content-article:not(:last-child) {
-  padding-block-end: 20px;
+.section__concentration-list .section__text {
+  margin-block-start: 10px;
+}
+
+.section__concentration-list .section__subtitle-list {
+  margin-block-start: 20px;
+}
+
+.section-images-card .section__subtitle {
+  margin-block-start: 0;
 }
 
 .section__subtitle {
@@ -162,6 +169,7 @@
   font-weight: 700;
   line-height: 23.4px;
   color: var(--color-subtitle);
+  margin-block-start: 20px;
 }
 
 .section__subtitle-list {
@@ -169,10 +177,6 @@
   font-weight: 400;
   line-height: 23.4px;
   color: var(--color-subtitle);
-}
-
-.section__subtitle-recommend {
-  margin-block-end: 19px;
 }
 
 .section__text {
@@ -283,6 +287,26 @@
     margin-block-end: 80px;
   }
 
+  .section__content {
+    display: grid;
+  }
+  
+  .section__focusing .section__subtitle {
+    margin-block-start: 0;
+  }
+
+  .section__focusing .section__content {
+    row-gap: 20px;
+  }
+
+  .section__concentration-list .section__subtitle {
+    margin-block-start: 0;
+  }
+
+  .section__concentration-list .section__subtitle-list {
+    margin-block-start: 0;
+  }
+  
   .section__focusing,
   .section__concentration-list {
     grid-template-columns: 1fr 2fr;
@@ -290,6 +314,7 @@
 
   .section__concentration-list .section__content {
     margin-inline-start: 15px;
+    row-gap: 20px;
   }
 
   .section__focusing .section__content-article {
@@ -303,6 +328,10 @@
   .section__concentration .section__title {
     margin-inline-end: 0;
     max-width: min-content;
+  }
+
+  .section__concentration .section__subtitle{
+    margin-block-start: 20px;
   }
 
   .section__image {
